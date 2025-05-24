@@ -9,6 +9,16 @@ spring :
    enabled: true 
    path: /h2-ui
  
+ eureka:
+ instance:
+  preferIpAddress: true
+ client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+     defaultZone: http://localhost:8092/eureka/
+ 
+ 
  datasource:
   url: jdbc:h2:file:./testdb
   driverClassName: org.h2.Driver
