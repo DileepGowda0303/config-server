@@ -33,5 +33,5 @@ spring :
     ddl-auto: update
     
 accounts:
-  #message: "Welcome to Dileep's' account related Prod APIs "
-  message: "{cipher}SJOvlpibCpIQ2NLiIcQSBDExBAM0Ymh43ZT6VqrhV+r87nurieLFt6afX+g8uAzR"
+  message: "Welcome to Dileep's' account related Production APIs "
+  #message: "{cipher}SJOvlpibCpIQ2NLiIcQSBDExBAM0Ymh43ZT6VqrhV+r87nurieLFt6afX+g8uAzR"
